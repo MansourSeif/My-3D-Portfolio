@@ -28,7 +28,7 @@ export const Menu = (props) => {
       ${menuOpened ? " w-full md:w-80" : "w-0"}`}
       >
         <div className="flex-1 flex items-start justify-center flex-col gap-6 p-8">
-          <img src="../public/projects/logo.png" id="logo" width="300px" alt="" /> 
+          <img src="/projects/logo.png" id="logo" width="300px" alt="" /> 
           <MenuButton label="About" onClick={() => onSectionChange(0)} />
           <MenuButton label="Skills" onClick={() => onSectionChange(1)} />
           <MenuButton label="Projects" onClick={() => onSectionChange(2)} />
