@@ -16,7 +16,7 @@ function LoadingScreen(props) {
         <div className='relative'>  
          
             <div className={`fixed top-0 left-0 w-full h-full z-50 transition-opacity duration-1000 pointer-events-none flex flex-col items-center justify-center bg-purple-200 ${started ? "opacity-0" : "opacity-100"}`}>
-                <img src="/projects/me.jpg" alt="mypic" className={`animate-bounce w-[200px] h-[200px] rounded-full imgshadow object-cover object-top mb-20`}/>
+                <img src="/projects/reddit-me.png" alt="mypic" className={`animate-bounce w-[200px] h-[200px] rounded-full imgshadow object-cover object-top mb-20`}/>
                 <p className='top-0 text-gray-500'>Hey👋, Welcome to my portfolio</p>
                 <div className='text-4xl md:text-9xl font-bold text-purple-900 relative'>
                     
@@ -24,9 +24,9 @@ function LoadingScreen(props) {
                   style={{
                   width:`${progress}%`,
               }}>
-                  David Mwas
+                  Seif Mansour
               </div>
-              <div className='opacity-40 '>David Mwas</div>
+              <div className='opacity-40 '>Seif Mansour</div>
                 </div>
                 
                 <div className='mt-5 mb-5'>

@@ -50,7 +50,7 @@ const AboutSection = (props) => {
   const { setSection } = props;
   const handleViewCV = () => {
     // Replace 'CV_URL' with the direct URL to your CV file
-    const cvUrl = "/DAVIDMWANGIWANJIRU CVLTS.pdf";
+    const cvUrl = "/SeifMansour.pdf";
     window.open(cvUrl, "_blank");
   };
   return (
@@ -63,7 +63,7 @@ const AboutSection = (props) => {
           </span>
 
           <span className="bg-white text-purple-500 px-2 text-3xl md:text-4xl  rounded-lg rounded-tl-none rounded-bl-none font-[700]  uppercase">
-            David Mwangi
+            Seif Mansour
           </span>
         </p>
       </h4>
@@ -87,8 +87,7 @@ const AboutSection = (props) => {
         web experiences and responsive designs. Skilled in Git and Python, I
         prioritize software quality and efficient workflows. Passionate about
         bug tracking and resolution, I'm committed to excellence in software
-        development. Currently affiliated with ALX Africa, I'm dedicated to
-        continuous learning and innovation.
+        development. 
       </motion.p>
       <section className="flex gap-8">
         <motion.button
@@ -138,7 +137,7 @@ const AboutSection = (props) => {
 const skills = [
   {
     title: "React && React Native",
-    level: 70,
+    level: 50,
   },
   {
     title: "Threejs && React Three Fiber",
@@ -158,7 +157,7 @@ const skills = [
   },
   {
     title: "Tailwind CSS",
-    level: 80,
+    level: 60,
   },
 ];
 

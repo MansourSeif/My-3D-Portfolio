@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap') ;
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +10,8 @@
 *{
     object-fit: cover;
     object-position: top;
-}
+    font-family:'Dosis';
+  }
 body {
   margin: 0;
   background: #000;

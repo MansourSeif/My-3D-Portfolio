@@ -8,42 +8,24 @@ import { useEffect, useRef } from "react";
 
 export const projects = [
   {
-    title: "TalkGpt",
-    url: "https://talk-gpt-topaz.vercel.app/",
-    image: "projects/talk-gpt.png",
-    description: "Created a chatgpt clone with voice recognition",
+    title: "Magon Oil",
+    url: "https://magonoil.com/",
+    image: "projects/magon.jpg",
+    description: "Created an e-commerce website .",
     
   },
     {
-    title: "Google clone",
-    url: "https://google-clone-next-js-react.vercel.app/",
-    image: "projects/google-clone.png",
-    description: "Created a google clone search engine",
+    title: "Game",
+    url: "",
+    image: "projects/game.jpg",
+    description: "Created a game using python.",
   },
     {
-    title: "MY Portfolio",
-    url: "https://david-mwas.vercel.app/",
-    image: "projects/portfolio.png",
+    title: "Olivia",
+    url: "https://olivia-peinture.com/",
+    image: "projects/dohn.jpg",
     description: "Created a 3D portfolio",
-  },
-  {
-    title: "Word Scrammble",
-    url: "https://react-word-scramble-game.vercel.app/",
-    image: "projects/word-scramble.png",
-    description: "Word scramble react game",
-  },
-  {
-    title: "Voice to Note",
-    url: "https://voice-to-text-note.vercel.app/",
-    image: "projects/voicetonotes.png",
-    description: "Todo text note with voice recognition",
-  },
-  {
-    title: "Juks UI",
-    url: "https://jukscomp.vercel.app/",
-    image: "projects/juks.png",
-    description: "Social media app UI",
-  },
+  }
  
 ];
 
